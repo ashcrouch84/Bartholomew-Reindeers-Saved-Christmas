@@ -1,0 +1,52 @@
+html
+{
+		
+	form {
+		width: 300px;
+		margin: 0 auto;
+	}
+	body {
+	  background-image: url('background.jpg');
+	}
+			table {
+	  width: 100%;
+	  table-layout: fixed;
+	}
+	.twentyW {
+	  width: 20%;
+	  background: white;
+	}
+	.twentyG {
+	  width: 20%;
+	  background: grey;
+	}
+
+	.twentyfiveW {
+	   width: 25%;
+	   background: white;
+	}
+	.twentyfiveG {
+	   width: 25%;
+	   background: grey;
+	}
+	.sixteenG {
+		width: 16%;
+		background: grey;
+	}
+	.sixteenW {
+		width: 16%
+		background: white;
+	}
+	/* see me */
+	td {
+	  border: solid;
+	}
+	/* play with bg cells and cols ? */
+
+	tr:nth-child(even) :nth-child(odd) {
+	  background:rgba(100,255,50,0.3);
+	  }
+	tr:nth-child(odd) :nth-child(even) {
+	  background:rgba(255,255,255,0.3);
+	  }
+}
